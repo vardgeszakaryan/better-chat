@@ -2,7 +2,7 @@
 
 A scalable and user-friendly terminal-based chat application for interacting with local language models through the Ollama service. Built with Python and the [Textual](https://textual.textualize.io/) framework.
 
-![Better Chat Screenshot](https://raw.githubusercontent.com/user/repo/main/screenshot.png) <!--- Placeholder for screenshot -->
+![Better Chat Screenshot](https://github.com/vardgeszakaryan/better-chat/blob/master/imgs/Screenshot%20From%202025-11-24%2021-11-52.png?raw=true) <!--- Placeholder for screenshot -->
 
 ## Features
 
