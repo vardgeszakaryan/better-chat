@@ -1,0 +1,37 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+
+# Virtual environment
+.venv/
+env/
+venv/
+.env/
+
+# Editor/IDE files
+.idea/
+*.iml
+.vscode/
+.DS_Store
+
+# uv-specific files
+uv.lock # If you're not committing this (e.g., for libraries)
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+
+# Test coverage
+.coverage
+.pytest_cache/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Jupyter Notebook files
+.ipynb_checkpoints/
