@@ -28,7 +28,7 @@ A scalable and user-friendly terminal-based chat application for interacting wit
 
 2.  **Install the dependencies:**
     ```bash
-    pip install .
+    pip install -r requirements.txt
     ```
 
 ### Running the Application
@@ -36,13 +36,13 @@ A scalable and user-friendly terminal-based chat application for interacting wit
 To run the application, use the following command:
 
 ```bash
-better-chat
+python3 main.py
 ```
 
 You can also specify the Ollama service URL and the model to use with command-line arguments:
 
 ```bash
-better-chat --url http://localhost:11434 --model llama2
+python3 main.py --url http://localhost:11434 --model llama2
 ```
 
 - `--url`: The URL of your Ollama API instance (default: `http://localhost:11434`).
@@ -55,10 +55,3 @@ The application is structured into three main components:
 - **`chat_app/client`**: Contains the Textual application, including the UI components for the chat display, input area, and model list.
 - **`chat_app/core`**: Defines the core data models and interfaces used throughout the application, such as `ChatSession` and `ChatMessage`.
 - **`chat_app/services`**: Includes the `OllamaService`, which is responsible for all communication with the Ollama API, such as fetching models and streaming chat responses.
-
-## Development
-
-To install the development dependencies, run:
-```bash
-pip install -e ".[dev]"
-```

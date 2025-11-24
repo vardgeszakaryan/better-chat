@@ -22,5 +22,6 @@ packages = ["chat_app"]
 [dependency-groups]
 dev = [
     "black>=25.11.0",
+    "deptry>=0.24.0",
     "ruff>=0.14.6",
 ]
